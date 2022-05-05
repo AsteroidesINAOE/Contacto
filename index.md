@@ -1,37 +1,221 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+  <title>Asteroides Cercanos a la Tierra (NEAs)</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  
+<style type="text/css">
+    * {
+      margin:0px;
+      font-family:Raleway;
+    }
+	  
+     table {
+	    color:white;
+	}
+	
+    .container1{
+	    display:flex;
+	    flex-flow:column;
+	  }
+	  
+    .container2{
+	    display:flex;
+	    flex-flow:row;
+	  }
+	 
+    a {
+      color:#0099FF;
+    }
+	  
+    .capa {
+	    background:black;
+	    height:40px;
+	    position:relative;
+	    padding:0;
+    }
 
-You can use the [editor on GitHub](https://github.com/AsteroidesINAOE/Contacto/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    p {
+      padding:0px 0px 0px 30px;
+    }
+    
+    h2 {
+      text-align:center;
+      padding:0px 0px 0px 30px;	
+      font-size:40px;
+    }
+    
+    h3 {
+      padding:0px 0px 0px 30px;
+      font-size:20px;
+    }
+	  
+    h4 {
+      padding:0px 0px 0px 30px;
+      font-size:16px;
+    }   
+    
+    body {
+      background-color: black;
+    }
+        
+    ul.listas, ol {
+      font-family:Raleway;
+      padding:0px 0px 0px 30px;
+    }
+	  
+    ol ol {
+      font-family:Raleway;
+      padding:0px 0px 0px 30px;
+    }
+    
+    #header_wrap {
+      padding:0px;
+      margin:0px;
+    }
+    
+    #header_wrap2 {
+      padding:30px 0px 0px;
+      margin:0px;
+    }
+    
+    #header {
+      padding:0px 0px 30px 0px;
+      margin:auto;
+      height:12px;
+      width:100%;
+      font-family:Raleway;
+      font-size:18px;
+      position: sticky;
+      top:0px;
+      background:#02284A;
+      z-index:3;
+    }
+    
+    ul.nav, .nav li {
+      list-style:none;
+    }
+    
+    .nav li a {
+        background-color:#02284A;
+        color:white;
+        text-decoration:none;
+        padding:10px 15px;
+        display:block;
+    }
+    
+    .nav li a:hover {
+      background-color:#021C34;
+    }
+    
+    .nav > li {
+      float:left;
+    }
+    
+    .nav li ul {
+      display:none;
+      position:absolute;
+      min-width:140px;
+      min-height:80;
+    }
+    
+    .nav li:hover > ul {
+    display:block;
+    }
+  
+    .indice {
+	background:#54ABFA;
+	margin:50px 10px 0 10px;
+	width:35%;
+	height:100%;
+	padding:20px 60px 20px 20px;
+  	border-radius:3px;
+	position:sticky;
+	top:55px;
+	z-index:2;
+	display:block;
+    }
+	  
+    a.contenido{
+	color:black;
+    }
+	  
+    .indice .indice_titulo {
+	font-size:20px;
+	color:black;
+	padding:0 0 0 10px;
+    }	
+	  
+    .indice .indice_lista{
+	  padding:0 0 0 30px;  
+	  }
+	
+  </style>  
+	
+	
+</head>
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <div id="header_wrap" class"outer">
+    <header clas="inner">
+      <h1 id="project_tittle">
+        <p style="background:black; color:#066DCC; font-weight:bold; padding:25px; text-align:center; font-size:60px; font-family:Raleway">Asteroides Cercanos a la Tierra (NEA's)</p>
+      </h1>
+  </div>
+  <hr color="#02284A" size=3>
+<div class="container1">
+  <div id="header">
+    <ul class="nav">
+      <li><a href="https://asteroidesinaoe.github.io/">Inicio</a></li>
+      <li><a href="https://asteroidesinaoe.github.io/Actividades/">Actividades</a>
+        <ul>
+          <li><a href="https://asteroidesinaoe.github.io/Actividad-Curva-de-Luz/">Curva de Luz</a></li>
+          <li><a href="https://asteroidesinaoe.github.io/Actividad-rbitas-de-Asteroides/">Órbitas</a></li>
+        </ul>
+      </li>
+      <li><a href="https://asteroidesinaoe.github.io/Actividades/">Aprender más</a>
+        <ul>
+	  <li><a href="https://asteroidesinaoe.github.io/Rayos-cosmicos/">Rayos cósmicos</a></li>
+	  <li><a href="https://asteroidesinaoe.github.io/CCD/">CCD</a></li>
+	  <li><a href="https://asteroidesinaoe.github.io/MPO-Canopus/">MPO Canopus</a></li>
+	  <li><a href="https://asteroidesinaoe.github.io/Fourier/">Análisis de Fourier</a></li>
+        </ul>
+      </li>
+      <li><a href="https://asteroidesinaoe.github.io/Glosario/">Glosario</a></li>
+      <li><a href="https://asteroidesinaoe.github.io/">Contacto</a></li>
+    </ul>
+  </div>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div class="container2">
+<div class="indice">
+	<h1 class="indice_titulo"><b>Contenido</b></h1>
+	<ul class="indice_lista">
+		<li><a class="contenido" href="#actv1" target="_top">Sección 1</a></li>
+		<li><a class="contenido" href="#actv2" target="_top">Sección 2</a></li>
+	</ul>
+		
+</div>	  
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<font color="white">
+<div class="capa"><a name="indice1"></a></div>
+<h2>Actividades<br><br></h2>
+  <p>
+    Texto <br><br>
+  </p>
+    
+  
+</font>   
+</div>
+</div>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AsteroidesINAOE/Contacto/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<div id="header_wrap2" class"outer">
+    <header clas="inner">
+        <p style="background:black; color:white; padding:25px; text-align:center; font-size:15px">2022 - Página diseñada y desarrollada por el grupo de trabajo BUAP-INAOE del programa: Asteroides Cercanos a la Tierra (NEAs)</p>
+</div>    
+     
+</body>
+</html>
