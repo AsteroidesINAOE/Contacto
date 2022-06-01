@@ -59,11 +59,15 @@
             alguno de los medios que se muestran a continuación:<br><br>
           </p>
           <h4>Dr. Raúl Mujica</h4>
-          <p>Correo electrónico:</p> <textarea disabled id="correo">rmujica@inaoep.mx</textarea> <button onclick="copiar()">Copiar correo</button>
-          <br><br>
+            <p>Correo electrónico:</p> 
+            <textarea disabled id="correo1">rmujica@inaoep.mx</textarea> 
+            <button onclick="copiar1()">Copiar correo</button>
+            <br><br>
           <h4>Sandra Tzitlalli Hernández Marín</h4>
-          <p>Correo electrónico: sthmarin270599@gmail.com<br><br>
-          </p>
+            <p>Correo electrónico:</p> 
+            <textarea disabled id="correo2">sthmarin270599@gmail.com</textarea> 
+            <button onclick="copiar2()">Copiar correo</button>
+            <br><br>
           <h4>Kevin Ulises Martínez Vieyra</h4>
           <p>Correo electrónico: kevin.martinezvie@alumno.buap.mx<br><br>
           </p>
@@ -75,8 +79,15 @@
           </p>
           
           <script>
-            function copiar() {
-              var content = document.getElementById('correo');
+            function copiar1() {
+              var content = document.getElementById('correo1');
+              content.select();
+              document.execCommand('copy');
+              alert("Copiado al portapapeles");
+            }
+            
+            function copiar2() {
+              var content = document.getElementById('correo2');
               content.select();
               document.execCommand('copy');
               alert("Copiado al portapapeles");
