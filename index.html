@@ -59,8 +59,8 @@
             alguno de los medios que se muestran a continuación:<br><br>
           </p>
           <h4>Dr. Raúl Mujica</h4>
-          <p>Correo electrónico: rmujica@inaoep.mx<br><br>
-          </p>
+          <p id="correo">Correo electrónico: rmujica@inaoep.mx</p> <button onclick="copiar()">Copiar correo</button>
+          <br><br>
           <h4>Sandra Tzitlalli Hernández Marín</h4>
           <p>Correo electrónico: sthmarin270599@gmail.com<br><br>
           </p>
@@ -73,6 +73,19 @@
           <h4>Alejandro Yañez Guerra</h4>
           <p>Correro electrónico: alejandro.yanezg@alumno.buap.mx<br><br>
           </p>
+          
+          <script>
+            function copiar() {
+
+            var content = document.getElementById('correo');
+    
+            content.select();
+            document.execCommand('copiar');
+
+            alert("Copied!");
+            }
+          </script>
+          
         </font>
       </div>
     </div>
