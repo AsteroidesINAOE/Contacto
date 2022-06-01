@@ -69,14 +69,20 @@
             <button onclick="copiar2()">Copiar correo</button>
             <br><br>
           <h4>Kevin Ulises Martínez Vieyra</h4>
-          <p>Correo electrónico: kevin.martinezvie@alumno.buap.mx<br><br>
-          </p>
+            <p>Correo electrónico: kevin.martinezvie@alumno.buap.mx</p>
+            <textarea readonly id="correo3"></textarea> 
+            <button onclick="copiar3()">Copiar correo</button>
+            <br><br>
           <h4>Luis Bryan Mendoza Meza</h4>
-          <p>Correo electrónico: mendozameza@gmail.com<br><br>
-          </p>
+            <p>Correo electrónico: mendozameza@gmail.com</p>
+            <textarea readonly id="correo4"></textarea> 
+            <button onclick="copiar4()">Copiar correo</button>
+            <br><br>
           <h4>Alejandro Yañez Guerra</h4>
-          <p>Correro electrónico: alejandro.yanezg@alumno.buap.mx<br><br>
-          </p>
+            <p>Correro electrónico: alejandro.yanezg@alumno.buap.mx</p>
+            <textarea readonly id="correo5"></textarea> 
+            <button onclick="copiar5()">Copiar correo</button>
+            <br><br>
           
           <script>
             function copiar1() {
@@ -92,6 +98,28 @@
               document.execCommand('copy');
               alert("Copiado al portapapeles");
             }
+            
+            function copiar3() {
+              var content3 = document.getElementById('correo3');
+              content3.select();
+              document.execCommand('copy');
+              alert("Copiado al portapapeles");
+            }
+            
+            function copiar4() {
+              var content4 = document.getElementById('correo4');
+              content4.select();
+              document.execCommand('copy');
+              alert("Copiado al portapapeles");
+            }
+            
+            function copiar5 {
+              var content5 = document.getElementById('correo5');
+              content5.select();
+              document.execCommand('copy');
+              alert("Copiado al portapapeles");
+            }
+            
           </script>
           
         </font>
