@@ -216,13 +216,21 @@
 
 
 
+    textarea {
+      resize: none;
+      border: none;
+      background: #131313;
+    }
+
+
+
     /* Actividad diáctica */
     button, input {
       padding: 20px 0px 20px 0px;
       text-decoration: none;
       padding: 10px;
       font-weight: 600;
-      font-size: 16px;
+      font-size: 12px;
       color: white;
       background-color: #066dcc;
       border-radius: 6px;
