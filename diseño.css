@@ -239,7 +239,7 @@
       cursor: pointer;
     }
 
-    .button:active {
+    button:active {
           color: blakc;
           background: white;
     }
