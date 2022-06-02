@@ -239,6 +239,11 @@
       cursor: pointer;
     }
 
+    .button:active {
+          color: blakc;
+          background: white;
+    }
+
     label {
       color: black;
       font-family: Raleway;
