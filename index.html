@@ -61,32 +61,47 @@
             investigadores, puede comunicarse a través de
             alguno de los medios que se muestran a continuación:<br><br>
           </p>
-          <h4>Dr. Raúl Mujica</h4>
-          <p>Correo electrónico:</p>
-          <textarea cols="40" rows="1" readonly id="correo1">rmujica@inaoep.mx</textarea>
-          <button onclick="copiar1()">Copiar correo</button>
-          <br><br>
           <h4>Sandra Tzitlalli Hernández Marín</h4>
-          <p>Correo electrónico:</p>
-          <textarea cols="40" rows="1" readonly id="correo2">sthmarin270599@gmail.com</textarea>
-          <button onclick="copiar2()">Copiar correo</button>
-          <br><br>
+            <p>Correo electrónico:</p>
+            <textarea cols="40" rows="1" readonly id="correo1">sthmarin270599@gmail.com</textarea>
+            <button onclick="copiar1()">Copiar correo</button>
+            <br><br>
           <h4>Kevin Ulises Martínez Vieyra</h4>
-          <p>Correo electrónico:</p>
-          <textarea cols="40" rows="1" readonly id="correo3">kevin.martinezvie@alumno.buap.mx</textarea>
-          <button onclick="copiar3()">Copiar correo</button>
-          <br><br>
+            <p>Correo electrónico:</p>
+            <textarea cols="40" rows="1" readonly id="correo2">kevin.martinezvie@alumno.buap.mx</textarea>
+            <button onclick="copiar2()">Copiar correo</button>
+            <br><br>
           <h4>Luis Bryan Mendoza Meza</h4>
-          <p>Correo electrónico:</p>
-          <textarea cols="40" rows="1" readonly id="correo4">mendozameza@gmail.com</textarea>
-          <button onclick="copiar4()">Copiar correo</button>
-          <br><br>
+            <p>Correo electrónico:</p>
+            <textarea cols="40" rows="1" readonly id="correo3">mendozameza@gmail.com</textarea>
+            <button onclick="copiar3()">Copiar correo</button>
+            <br><br>
           <h4>Alejandro Yañez Guerra</h4>
-          <p>Correro electrónico:</p>
-          <textarea cols="40" rows="1" readonly id="correo5">alejandro.yanezg@alumno.buap.mx</textarea>
-          <button onclick="copiar5()">Copiar correo</button>
-          <br><br>
-
+            <p>Correro electrónico:</p>
+            <textarea cols="40" rows="1" readonly id="correo4">alejandro.yanezg@alumno.buap.mx</textarea>
+            <button onclick="copiar4()">Copiar correo</button>
+            <br><br>
+          <h4>Raúl Mujica</h4>
+            <p>Correo electrónico:</p>
+            <textarea cols="40" rows="1" readonly id="correo5">rmujica@inaoep.mx</textarea>
+            <button onclick="copiar5()">Copiar correo</button>
+            <br><br>
+          <h4>José Ramón Valdés</h4>
+            <p>Correo electrónico:</p>
+            <textarea cols="40" rows="1" readonly id="correo6">jvaldes@inaoep.mx</textarea>
+            <button onclick="copiar6()">Copiar correo</button>
+            <br><br>
+          <h4>José Guichard Romero</h4>
+            <p>Correo electrónico:</p>
+            <textarea cols="40" rows="1" readonly id="correo7">jguich@inaoep.mx</textarea>
+            <button onclick="copiar7()">Copiar correo</button>
+            <br><br>
+          <h4>Sergio Camacho Lara</h4>
+            <p>Correo electrónico:</p>
+            <textarea cols="40" rows="1" readonly id="correo8">sergio.camacho@inaoep.mx</textarea>
+            <button onclick="copiar8()">Copiar correo</button>
+            <br><br>
+          
           <script>
             function copiar1() {
               var content1 = document.getElementById('correo1');
@@ -115,6 +130,24 @@
             function copiar5() {
               var content5= document.getElementById('correo5');
               content5.select();
+              document.execCommand('copy');
+            }
+            
+            function copiar6() {
+              var content6= document.getElementById('correo5');
+              content6.select();
+              document.execCommand('copy');
+            }
+            
+            function copiar7() {
+              var content7= document.getElementById('correo5');
+              content7.select();
+              document.execCommand('copy');
+            }
+            
+            function copiar8() {
+              var content8= document.getElementById('correo5');
+              content8.select();
               document.execCommand('copy');
             }
 
