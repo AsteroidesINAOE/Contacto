@@ -15,6 +15,13 @@ header{
   left: 0;
   background: rgb(0, 0, 0);
 }
+textarea {
+      resize: none;
+      border: none;
+      background: #131313;
+      color: white;
+      padding-left: 35px;
+}
 
 /* Título de la página */
 .titulo {
