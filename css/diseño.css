@@ -186,9 +186,6 @@ textarea {
   display: flex;
   flex-flow: row;
   visibility: visible;
-  flex-direction: row;
-  align-items: center;
-  width: 80%;
 }
 
 .indice {
@@ -232,6 +229,7 @@ a.contenido {
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   width: 80%;
 }
