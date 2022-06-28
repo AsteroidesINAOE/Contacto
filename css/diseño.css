@@ -186,6 +186,8 @@ textarea {
   display: flex;
   flex-flow: row;
   visibility: visible;
+  align-items: center;
+  width: 80%;
 }
 
 .indice {
