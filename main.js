@@ -1,4 +1,3 @@
-
 function copiar1() {
   var content1 = document.getElementById('correo1');
   content1.select();
